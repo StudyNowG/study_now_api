@@ -1,0 +1,5 @@
+CREATE TABLE subject(
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(55) NOT NULL,
+    CONSTRAINT pk_subject PRIMARY KEY(id)
+);
